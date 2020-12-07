@@ -1,0 +1,169 @@
+﻿
+@font-face {
+    font-family: raleway;
+    src: url('Raleway-Regular.ttf');
+}
+@font-face {
+    font-family: Montserrat;
+    src: url('Montserrat-Regular.ttf');
+    font-weight:bolder;
+}
+body {
+    background: white;
+}
+.name {
+    font-family: Montserrat;
+    font-size: 110px;
+    margin-left: 100px;
+    letter-spacing: 5px;
+    line-height: 120px;
+    font-weight: bolder;
+    color: #17252A;
+    margin-top: 250px;
+    -webkit-text-stroke: 1px #17252A;
+}
+
+.name {
+    text-shadow: 0 7px 0 rgba(58, 175, 169, .5), 0 14px 0 rgba(222, 242, 241, .5);
+}
+
+
+
+
+
+/* <h2><a href="resume_isabelle-goralsky.pdf">RESUME</a> | <a href="projects.html">PORTFOLIO</a> | <a href="aboutme.html">ABOUT ME</a></h2>*/
+
+/* Add a black background color to the top navigation */
+.topnav {
+    overflow: hidden;
+    font-family: raleway;
+    color: #17252A;
+    text-align: center;
+    letter-spacing: 2px;
+    font-weight: 600;
+    margin-top: 150px;
+}
+
+    /* Style the links inside the navigation bar */
+    .topnav a {
+        color: #17252A;
+        text-align: center;
+        padding: 14px 16px;
+        
+        font-size: 20px;
+        
+    }
+
+        /* Change the color of links on hover */
+        .topnav a:hover {
+            color: #3aafa9;
+        }
+
+
+.head {
+    background-color: #def2f1;
+    color: #17252A;
+    font-family: Montserrat;
+    font-size: 70px;
+    letter-spacing: 5px;
+    padding-top: 25px;
+    padding-left: 64px;
+    padding-bottom: 10px;
+    width: auto;
+    margin-left: 100px;
+    max-height: 85px;
+    font-weight: bolder;
+
+}
+.home {
+    margin-left:70px;
+}
+    .home:hover {
+        background-color: #3aafa9;
+    }
+    
+.res{
+    margin-left:2px;
+}
+
+.res:hover {
+    background-color: #3aafa9;
+}
+.email:hover {
+    background-color: #3aafa9;
+}
+
+#describe {
+    color: #17252A;
+    font-family: raleway;
+    font-weight: lighter;
+ padding-top: 30px;
+    font-size:45px;
+    margin-left: 64px;
+ 
+}
+
+#intro {
+    font-size:20px;
+    color: #17252A;
+    font-family: raleway;
+    font-weight: lighter;
+    margin: 64px;
+    margin-top:0px;
+    padding-left:100px;
+    
+    text-align: left;
+    line-height:30px;
+    display: flex;
+    flex-direction: row;
+    align-content: center;
+}
+#p{
+    margin-left: 64px;
+}
+
+.proj{
+    font-family: Montserrat;
+    font-size: 25px;
+}
+
+.m{
+    
+    max-height:300px;
+    max-width:400px;
+    padding:5px;
+}
+
+#mbig {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-right: 64px;
+}
+
+.rock{
+    display:flex;
+    justify-content: center;
+
+}
+
+.txt {
+    font-family: raleway;
+    font-size: 20px;
+    padding-left: 18px;
+    font-weight: lighter;
+}
+
+.txt p{
+    
+    font-size: 18px;
+}
+
+.link {
+    color: #17252A;
+    text-decoration: none;
+}
+    .link:hover {
+        color: #3aafa9;
+        
+    }
